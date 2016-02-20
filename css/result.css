@@ -1,0 +1,62 @@
+/* UI */
+.axis path, .axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.timeLine {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+  stroke-width: 1;
+  clip-path: url(#clip);
+}
+
+
+rect.dispArea {
+  opacity: 0.0;
+}
+
+
+.candidateDot {
+  clip-path: url(#clip);
+}
+
+.tgtLegend {
+  font-weight: bold;
+  fill: red;
+}
+
+
+.arc.home {
+    fill: #FF1B1B;
+   opacity: 0.4;
+}
+
+.arc.away {
+    fill: #831138;
+   opacity: 0.4;
+}
+
+
+.node.homeNode {
+  fill: black;
+}
+.node.awayNode {
+  fill: #063A85;
+}
+.node.thingNode {
+  fill: white;
+}
+.node.goalNode {
+  fill: #FFF928;
+}
+
+.arc.tgt {
+  opacity: 1;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
