@@ -35,8 +35,9 @@ rect.dispArea {
 }
 
 .arc.away {
-    fill: #831138;
-   opacity: 0.4;
+    fill: #690025;
+/*    fill: #831138;*/
+   opacity: 0.5;
 }
 
 
@@ -55,8 +56,56 @@ rect.dispArea {
 
 .arc.tgt {
   opacity: 1;
-  stroke: black;
   stroke-width: 2px;
 }
+
+/* slider */
+.sliderAxis {
+  font: 10px sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.sliderAxis .domain {
+  fill: none;
+  stroke: #ddd;
+  stroke-opacity: 1;
+  stroke-width: 1px;
+  stroke-linecap: round;
+  cursor: pointer;
+}
+
+
+.slider .sliderHandle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: .5;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+.sliderRow {
+  display: inline-block;
+}
+.sliderRow.tgtData {
+  margin-bottom: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
